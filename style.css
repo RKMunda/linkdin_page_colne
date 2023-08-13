@@ -2,5 +2,23 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: ;
+    background-color: #f3f2ef;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .nav-first-list {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+nav .nav-second-list {
+    display: flex;
+    list-style: none;
+    margin-right: 40px;
+    gap: 40px;
 }
