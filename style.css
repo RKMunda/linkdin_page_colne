@@ -8,6 +8,7 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
+    background-color: white;
 }
 
 nav .nav-first-list {
@@ -16,9 +17,31 @@ nav .nav-first-list {
     gap: 40px;
 }
 
+nav .input-search {
+    width: 155%;
+    height: 40px;
+    background-color: #eef3f9;
+    padding-left: 30px;
+    border: 0;
+}
+
 nav .nav-second-list {
     display: flex;
     list-style: none;
-    margin-right: 40px;
+    padding-right: 40px;
     gap: 40px;
+    text-align: center;
+}
+
+.nav-second-list .label-text {
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+/*icons*/
+
+.fa-linkedin {
+    color: #0d67c2;
+    font-size: 35px;
 }
