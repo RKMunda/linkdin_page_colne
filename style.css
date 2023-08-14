@@ -55,14 +55,16 @@ nav .nav-second-list {
 
 .left-content .box-one {
     width: 100%;
-    height: 300px;
+    height: 255px;
     background-color: white;
+    border-radius: 15px;
 }
 
 .left-content .background {
     background-color: #a0b4b7;
     width: 100%;
     height: 50px;
+    border-radius: 15px;
 }
 
 .left-content .fa-circle-user {
@@ -72,13 +74,66 @@ nav .nav-second-list {
     position: absolute;
     margin-left: 77px;
     font-size: 50px;
+    text-align: center;
+}
+
+.left-content .box-one .heading {
+    text-align: center;
+    margin-top: 45px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.left-content .box-one .subheading {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.left-content .par-column {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.left-content .par-column .one {
+    margin-left: 5px;
+    color: gray;
+    font-size: 12px;
+}
+
+.left-content .par-column .two {
+    color: #0d67c2;
+    margin-right: 5px;
+    font-size: 12px;
 }
 
 .left-content .box-two {
     width: 100%;
-    height: 200px;
+    min-height: 200px;
     margin-top: 20px;
     background-color: white;
+    border-radius: 15px;
+}
+
+.left-content .box-two .heading {
+    font-size: 17px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.left-content .box-two .list {
+    padding: 10px;
+    width: 65%;
+    margin: auto;
+}
+
+.left-content .box-two .list .list-one {
+    display: inline-block;
+}
+
+.left-content .box-two .list .list-two {
+    display: inline-block;
+    margin-left: 5px;
 }
 
 .main-section .middle-content {
@@ -92,6 +147,21 @@ nav .nav-second-list {
     width: 100%;
     height: 100px;
     margin-bottom: 20px;
+}
+
+.middle-content .box-one .search {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.middle-content .box-one .search .input {
+    width: 350px;
+    height: 45px;
+    margin-top: 25px;
+    font-size: 16px;
+    padding-left: 20px;
+    border: 1px solid gray;
+    border-radius: 22px;
 }
 
 .middle-content .box-two {
