@@ -39,6 +39,60 @@ nav .nav-second-list {
 }
 
 
+/*main section content*/
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    width: 80%;
+    gap: 40px;
+}
+
+.main-section .left-content {
+    width: 40%;
+}
+
+.left-content .box-one {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+}
+
+.left-content .box-two {
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.main-section .middle-content {
+    background-color: white;
+    width: 100%;
+    height: 100px;
+}
+
+.middle-content .box-one {
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.middle-content .box-two {
+    background-color: white;
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.main-section .right-content {
+    background-color: white;
+    width: 50%;
+    height: 200px;
+}
+
+
 /*icons*/
 
 .fa-linkedin {
@@ -53,33 +107,4 @@ nav .nav-second-list {
 
 li {
     cursor: pointer;
-}
-
-
-/*main section content*/
-
-.main-section {
-    display: flex;
-    justify-content: center;
-    margin: 20px auto;
-    width: 80%;
-    gap: 40px;
-}
-
-.main-section .left-content {
-    background-color: white;
-    width: 100%;
-    height: 300px;
-}
-
-.main-section .middle-content {
-    background-color: white;
-    width: 100%;
-    height: 300px;
-}
-
-.main-section .right-content {
-    background-color: white;
-    width: 100%;
-    height: 300px;
 }
