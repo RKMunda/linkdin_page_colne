@@ -151,7 +151,14 @@ nav .nav-second-list {
 
 .middle-content .box-one .search {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 30px;
+}
+
+.middle-content .box-one .search .fa-regular {
+    font-size: 55px;
+    margin-top: 20px;
+    color: #ce95ff;
 }
 
 .middle-content .box-one .search .input {
@@ -162,6 +169,17 @@ nav .nav-second-list {
     padding-left: 20px;
     border: 1px solid gray;
     border-radius: 22px;
+}
+
+.middle-content .box-one .list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.middle-content .box-two .list .subtitle {
+    margin-left: 10px;
 }
 
 .middle-content .box-two {
@@ -188,6 +206,22 @@ nav .nav-second-list {
 .fa-magnifying-glass {
     position: absolute;
     margin: 12px 8px;
+}
+
+.fa-photo-film {
+    color: rgb(112, 181, 249);
+}
+
+.fa-video {
+    color: rgb(127, 93, 94);
+}
+
+.fa-calendar-days {
+    color: rgb(231, 163, 62);
+}
+
+.fa-newspaper {
+    color: rgb(252, 246, 149);
 }
 
 li {
