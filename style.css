@@ -45,3 +45,8 @@ nav .nav-second-list {
     color: #0d67c2;
     font-size: 35px;
 }
+
+.fa-magnifying-glass {
+    position: absolute;
+    margin: 12px 8px;
+}
