@@ -36,6 +36,7 @@ nav .nav-second-list {
 .nav-second-list .label-text {
     text-align: center;
     margin-top: 5px;
+    color: grey;
 }
 
 
@@ -282,6 +283,10 @@ nav .nav-second-list {
     padding: 20px;
 }
 
+.middle-content .box-two .link .icons .text {
+    padding-left: 10px;
+}
+
 .main-section .right-content {
     background-color: white;
     width: 50%;
@@ -344,6 +349,10 @@ nav .nav-second-list {
 
 .fa-newspaper {
     color: rgb(252, 246, 149);
+}
+
+.fa-text {
+    color: grey;
 }
 
 li {
