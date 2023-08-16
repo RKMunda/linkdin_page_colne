@@ -269,6 +269,19 @@ nav .nav-second-list {
     color: grey;
 }
 
+.middle-content .box-two hr {
+    color: grey;
+}
+
+.middle-content .box-two .link .icons {
+    width: 95%;
+    color: grey;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
 .main-section .right-content {
     background-color: white;
     width: 50%;
