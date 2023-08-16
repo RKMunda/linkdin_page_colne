@@ -191,6 +191,37 @@ nav .nav-second-list {
     margin-top: 20px;
 }
 
+.middle-content .box-two .profile {
+    width: 95%;
+    margin: 10px auto;
+    display: flex;
+    gap: 10px;
+}
+
+.middle-content .box-two .profile .circle {
+    border-radius: 100%;
+    background-color: #0d67c2;
+    color: white;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.middle-content .box-two .profile .description {
+    margin-top: 12px;
+}
+
+.middle-content .box-two .profile .description .name {
+    font-weight: bold;
+}
+
+.middle-content .box-two .profile .description .designation {
+    font-size: 12px;
+}
+
 .main-section .right-content {
     background-color: white;
     width: 50%;
@@ -198,11 +229,32 @@ nav .nav-second-list {
     border-radius: 15px;
 }
 
-.right-content .box-one .heading {
+.right-content .heading {
     display: flex;
     justify-content: space-between;
+    width: 90%;
+    margin: 10px 15px;
+}
+
+.right-content .list {
+    margin: 15px;
     width: 95%;
-    margin: 5px 10px;
+}
+
+.right-content .list .sublist .fa-circle {
+    color: #0d67c2;
+    font-size: 10px;
+}
+
+.right-content .list .sublist .sublist-bold {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.right-content .list .para {
+    font-size: 10px;
+    margin-left: 16px;
+    color: gray;
 }
 
 
